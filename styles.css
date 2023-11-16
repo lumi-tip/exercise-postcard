@@ -1,0 +1,90 @@
+* {
+	min-height: 10px;
+}
+
+body {
+	background: black;
+}
+
+.postcard {
+	background: white;
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	border: 3px solid rgb(134, 134, 134);
+}
+
+.postcard-header {
+	display: flex;
+	align-items: center;
+	padding-bottom: 3px;
+	border-bottom: 2px solid rgb(134, 134, 134);
+}
+
+.postcard-header img {
+	width: 50px;
+	height: 50px;
+	padding-right: 5px;
+}
+
+.postcard-header h1 {
+	width: 345px;
+	margin: 0;
+	padding-left: 5px;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left p:first-child {
+	margin-top: 0;
+}
+
+.body-left p {
+	font-size: 17px;
+}
+
+.body-left,
+.body-right {
+	padding: 10px;
+}
+
+input {
+	border: none;
+	border-bottom: 2px solid grey;
+	padding: 7px 0;
+	margin: 5px 0;
+}
+
+input:hover {
+	border-bottom: 2px solid black;
+}
+
+input:focus {
+	outline: none;
+}
+
+.postcard-footer {
+	/*solo queria practicar un poco de flex, pero se puede hacer con text-align*/
+	display: flex;
+	text-align: center;
+	justify-content: center;
+}
+
+button {
+	border-radius: 2px;
+	padding: 10px;
+	color: green;
+	border-radius: 5px;
+}
+
+textarea {
+	resize: none;
+	height: 70px;
+	border-radius: 3px;
+}
+
+textarea:hover {
+	border: 1.5px solid black;
+}
